@@ -1,0 +1,23 @@
+1. 목록확인
+git branch 
+
+2. 브랜치 생성
+git branch 신규브랜치명
+
+3. 브랜치 이동
+> HEAD를 이동한다!!
+git switch 브랜치명
+
+3-1. 생성 후 이동
+git switch -c 브랜치명
+
+4. 브랜치 병합
+git merge 브랜치명
+
+5. 브랜치 삭제
+git branch -d 브랜치명
+git branch -D 브랜치명
+(강제 삭제 옵션)
+
+6. 브랜치 merge 충돌 날때,
+저장 -> 수정 -> add -> commit
